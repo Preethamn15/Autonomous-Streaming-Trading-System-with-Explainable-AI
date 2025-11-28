@@ -94,7 +94,7 @@ This section presents all project images in one clean, organized gallery, making
 
 ## Architecture Diagram
 <p align="center">
-  <img src="architecture.png" width="750">
+  <img src="architecture.png" width="300"> 
 </p>
 
 ---
@@ -137,13 +137,6 @@ This section presents all project images in one clean, organized gallery, making
 ## RSI & Volatility Panels
 <p align="center">
   <img src="dashboard_rsi_vol.png" width="800">
-</p>
-
----
-
-## Action Distribution (Donut / Pie)
-<p align="center">
-  <img src="dashboard_action_distribution.png" width="750">
 </p>
 
 ---
