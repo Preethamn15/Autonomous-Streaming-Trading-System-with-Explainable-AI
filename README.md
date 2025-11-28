@@ -86,6 +86,72 @@ An autonomous trading agent that makes real-time BUY/SELL/HOLD/WAIT decisions us
 
 ---
 
+# 📸 System Visuals & UI Showcase
+
+This section presents all project images in one clean, organized gallery, making the documentation visually appealing and easy to understand.
+
+---
+
+## Architecture Diagram
+
+<p align="center">
+  <img src="architecture.png" width="750">
+</p>
+
+---
+
+## Dashboard Overview
+
+### 🔷 Live Price & Indicators
+<p align="center">
+  <img src="dashboard_price.png" width="800">
+</p>
+
+---
+
+### Agent Decision Panel
+<p align="center">
+  <img src="dashboard_decision.png" width="750">
+</p>
+
+---
+
+### ML Confidence Gauge
+<p align="center">
+  <img src="dashboard_confidence.png" width="750">
+</p>
+
+---
+
+### SHAP Explainability (Local Waterfall)
+<p align="center">
+  <img src="dashboard_shap.png" width="750">
+</p>
+
+---
+
+### Indicator Panels (RSI & Volatility)
+<p align="center">
+  <img src="dashboard_rsi_vol.png" width="800">
+</p>
+
+---
+
+### Action Distribution (Donut / Pie)
+<p align="center">
+  <img src="dashboard_action_distribution.png" width="750">
+</p>
+
+---
+
+### Recent Actions Log
+<p align="center">
+  <img src="dashboard_recent_actions.png" width="800">
+</p>
+
+---
+
+
 # 🔥 HOW TO RUN THIS PROJECT ON YOUR LAPTOP  
 **(Using Your Exact Commands — Windows + PowerShell)**
 
