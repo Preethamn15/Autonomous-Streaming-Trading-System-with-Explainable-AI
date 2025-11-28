@@ -1,0 +1,9 @@
+kafka-python==2.1.0
+requests==2.31.0
+pandas==2.2.2
+numpy==1.26.3
+streamlit==1.28.0
+scipy==1.11.3
+ta==0.11.0          # technical analysis helpers (optional)
+shap==0.42.1        # later, for explainability
+yfinance

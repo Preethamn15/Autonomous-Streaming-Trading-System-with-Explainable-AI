@@ -1,0 +1,212 @@
+/* -------------------------------------------------------
+   GLOBAL — Premium Gradient Background
+------------------------------------------------------- */
+body {
+    background: linear-gradient(135deg, #e8ecf7 0%, #dde3f3 50%, #cfd9f0 100%);
+    font-family: Inter, Arial, sans-serif;
+    color: #1e2433;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page spacing */
+.main-container {
+    padding: 16px;
+}
+
+/* -------------------------------------------------------
+   HEADER — Frosted Glass + Blue Glow
+------------------------------------------------------- */
+.header {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(14px);
+    padding: 18px 24px;
+    border-radius: 18px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid rgba(255,255,255,0.45);
+    box-shadow: 0 8px 26px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.header:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+/* Input */
+.symbol-input {
+    padding: 10px 14px;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid #c7cde0;
+    color: #222;
+    border-radius: 10px;
+    width: 190px;
+
+    transition: 0.2s ease;
+}
+.symbol-input:focus {
+    border-color: #6e8cff;
+    box-shadow: 0 0 8px rgba(110,140,255,0.4);
+    outline: none;
+}
+
+/* Button */
+.symbol-btn {
+    margin-left: 10px;
+    background: linear-gradient(135deg, #6e8cff, #8ba4ff);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: 0.25s ease;
+}
+.symbol-btn:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 18px rgba(110,140,255,0.35);
+}
+
+/* -------------------------------------------------------
+   GRID SYSTEM
+------------------------------------------------------- */
+.row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.col { flex: 1; }
+
+/* -------------------------------------------------------
+   CARDS — Best Premium Cut Glass Effect
+------------------------------------------------------- */
+.card {
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(18px);
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+
+    border: 1px solid rgba(255,255,255,0.45);
+    transition: 0.35s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 40px rgba(0,0,0,0.14);
+}
+
+/* Card Title */
+.card-title {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 12px;
+
+    background: linear-gradient(135deg, #5a6bff, #925dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* -------------------------------------------------------
+   ACTION ROW (Signal History)
+------------------------------------------------------- */
+.actions-box {
+    height: 330px;
+    overflow-y: auto;
+    padding-right: 12px;
+}
+
+/* History Row */
+.action-row {
+    background: rgba(255,255,255,0.85);
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+    border: 1px solid rgba(220,225,240,0.8);
+    transition: 0.25s ease;
+}
+.action-row:hover {
+    background: rgba(245,248,255,1);
+    transform: scale(1.02);
+}
+
+/* -------------------------------------------------------
+   TAGS — Beautiful Vibrant Colors
+------------------------------------------------------- */
+.tag {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;
+    font-size: 13px;
+    margin-right: 6px;
+}
+
+.tag-buy {
+    background: linear-gradient(135deg, #09c778, #06a867);
+}
+.tag-sell {
+    background: linear-gradient(135deg, #ff5252, #ff4141);
+}
+.tag-wait {
+    background: linear-gradient(135deg, #ffda4d, #ffcf3a);
+    color: #000;
+}
+
+/* -------------------------------------------------------
+   SHAP Axes Text
+------------------------------------------------------- */
+.shap-heatmap .xtick text,
+.shap-heatmap .ytick text {
+    fill: #000 !important;
+}
+
+/* -------------------------------------------------------
+   AGENT CARDS — Elegant Soft Cards
+------------------------------------------------------- */
+.agent-section {
+    margin-bottom: 16px;
+}
+
+.why-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #5d6eff;
+}
+
+.agent-card {
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(16px);
+    border-radius: 14px;
+    padding: 12px;
+
+    border: 1px solid rgba(230,235,250,0.9);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+    max-height: 300px;
+    overflow-y: auto;
+
+    transition: 0.3s ease;
+}
+
+.agent-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 26px rgba(0,0,0,0.12);
+}
+
+/* Bullet spacing */
+.agent-card ul {
+    padding-left: 20px;
+    margin: 4px 0;
+}
+.agent-card li {
+    margin-bottom: 6px;
+}
