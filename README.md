@@ -99,12 +99,21 @@ This section presents all project images in one clean, organized gallery, making
 </p>
 
 ---
+## Architecture Diagram
+<p align="center">
+  <img src="architecture.png" width="750">
+</p>
+---
 
-## Dashboard Overview
-
-### 🔷 Live Price & Indicators
+### Dashboard Overview
 <p align="center">
   <img src="dashboard_price.png" width="800">
+</p>
+---
+
+### Live Price & Indicators
+<p align="center">
+  <img src="live_price.png" width="800">
 </p>
 
 ---
