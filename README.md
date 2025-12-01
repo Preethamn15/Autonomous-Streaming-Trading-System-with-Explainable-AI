@@ -10,6 +10,7 @@ Agent-based AI refers to autonomous decision-making entities that observe data, 
 
 ### Explainable AI (XAI)  
 Explainable AI provides clarity on how and why an AI system makes decisions. By revealing the contribution of different inputs and model behaviors, XAI improves transparency, trust, and interpretability, making complex AI outputs understandable to users.
+---
 
 The proposed system is an autonomous real-time trading platform built on a streaming architecture where live market prices are continuously ingested and transformed into technical indicators such as SMA, EMA, RSI, and Volatility through a dedicated indicator engine. These enriched indicator streams are consumed by a hybrid decision-making agent that combines a trained Random Forest machine-learning model with rule-based logic to evaluate market momentum and trend behavior, ultimately producing BUY, SELL, or WAIT actions. To ensure transparency and interpretability, the system integrates an Explainable AI (XAI) layer using SHAP values, which reveals how each indicator contributed to the agent’s final decision and provides human-readable reasoning for every action the system takes.
 
