@@ -9,9 +9,7 @@ Streaming systems handle data continuously as it arrives, allowing real-time pro
 Agent-based AI refers to autonomous decision-making entities that observe data, interpret patterns, and take appropriate actions. These agents combine logic and learning to operate independently and intelligently within their environment.
 
 ### Explainable AI (XAI)  
-**Explainable AI provides clarity on how and why an AI system makes decisions. By revealing the contribution of different inputs and model behaviors, XAI improves transparency, trust, and interpretability, making complex AI outputs understandable to users.
-**
-
+Explainable AI provides clarity on how and why an AI system makes decisions. By revealing the contribution of different inputs and model behaviors, XAI improves transparency, trust, and interpretability, making complex AI outputs understandable to users.
 
 ---
 
